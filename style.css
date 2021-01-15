@@ -1,65 +1,99 @@
 a:link {
-    color: white;
+    color: black;
     background-color: transparent;
-    text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: black;
     background-color: transparent;
-    text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: black;
     background-color: transparent;
-    text-decoration: underline;
 }
 
 a:active {
-    color: white;
+    color: black;
     background-color: transparent;
-    text-decoration: underline;
 }
+
 
 body, html {
+    font-family: 'Work Sans', sans-serif;
     height: 100%;
+    color: black;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
 
-/* Style tab links */
-
-/* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     background-color: #f1f1f1;
+    text-decoration: none;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab a {
     background-color: inherit;
+    color: black;
     float: left;
     border: none;
-    outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    transition: 0.3s;
+    text-decoration: none;
 }
 
 .tab a:active {
     background-color: inherit;
     float: left;
     border: none;
-    outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    transition: 3s;
+    text-decoration: none;
 }
 
 /* Change background color of buttons on hover */
 .tab a:hover {
     background-color: #ddd;
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+    font-size: 90px;
+}
+
+.text {
+    margin: 100px;
+}
+
+.icon {
+    padding-top: 20px;
+
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon a:hover {
+    text-decoration: underline;
+}
+
+body, html {
+    height: 100%;
+}
+
+img {
+    position: fixed;
+    left: 800px;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+i {
+    padding-left: 5px;
 }
