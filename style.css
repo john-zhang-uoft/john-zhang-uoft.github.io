@@ -1,20 +1,23 @@
 a:link {
-    color: black;
+    color: white;
+    transition-duration: 325ms;
     background-color: transparent;
+
 }
 
 a:visited {
-    color: black;
+    color: white;
     background-color: transparent;
 }
 
 a:hover {
-    color: black;
     background-color: transparent;
+    color: rgb(184, 99, 151);
+
 }
 
 a:active {
-    color: black;
+    color: white;
     background-color: transparent;
 }
 
@@ -22,32 +25,30 @@ a:active {
 body, html {
     font-family: 'Work Sans', sans-serif;
     height: 100%;
-    color: black;
-    margin: 0;
+    color: white;
+    background-color: rgb(12, 10, 47);
 }
 
 .tab {
     overflow: hidden;
-    /*border: 1px solid #ccc;*/
-    background-color: #f1f1f1;
+    background-color: rgb(12, 10, 47);
     text-decoration: none;
+
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab a {
-    background-color: inherit;
-    color: black;
+    color: white;
     float: left;
-    border: none;
     cursor: pointer;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 5%;
+    border: 0.075em solid rgb(184, 99, 151);
+    margin: 1em;
 }
 
 .tab a:active {
-    background-color: inherit;
-    float: left;
-    border: none;
     cursor: pointer;
     padding: 14px 16px;
     text-decoration: none;
@@ -55,34 +56,100 @@ body, html {
 
 /* Change background color of buttons on hover */
 .tab a:hover {
-    background-color: #ddd;
-    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(184, 99, 151, 0.1);
+    color: rgb(184, 99, 151)
+
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 90px;
 }
 
 .text {
-    margin: 100px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+
+}
+
+.list {
+    text-align: left;
+
 }
 
 .icon {
-    padding-top: 20px;
-
+    padding-top: 2vh;
 }
 
 .icon a {
     text-decoration: none;
+
 }
 
 .icon a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 body, html {
     height: 100%;
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
 }
 
 img {
@@ -95,5 +162,35 @@ img {
 }
 
 i {
-    padding-left: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*
+@media screen and (min-width: 1000px) {
+    body {
+        height: 120%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        height: 100%;
+    }
+}*/
+
+#typed {
+    font-size: 20px;
+    margin: auto;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type 4s steps(60, end);
+}
+
+.resume {
+    float: right !important;
+    margin-right: 1em !important;
 }
