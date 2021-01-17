@@ -29,10 +29,13 @@ body, html {
     overflow: hidden;
 }
 
+
 .tab {
+    font-size: 0.8em;
     overflow: hidden;
     background-color: rgb(12, 10, 47);
     text-decoration: none;
+
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -72,11 +75,6 @@ h1 {
     color: rgb(141, 150, 179);
     font-size: 20px;
     text-align: center;
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-    -o-animation: fadein 3s; /* Opera < 12.1 */
-    animation: fadein 3s;
     overflow: hidden;
     float: left;
     width: 66%;
@@ -196,6 +194,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .page_no_navbar {
     overflow: hidden;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 
@@ -210,18 +213,21 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
-#photo img {
-    height: 18em;
-    border-radius: 4%;
-    margin: 2em 2em 2em 2em;
-}
-
-
-.page_content #photo {
+.photo {
     float: left;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+
+.photo img {
+    height: 18em;
+    border-radius: 4%;
+    margin: 2em 2em 2em 2em;
+    box-shadow: 0 4px 8px 0 rgba(200, 82, 204, 0.3), 0 6px 20px 0 rgba(200, 82, 204, 0.3);
+    /*
+    box-shadow: 15px 15px rgb(33, 19, 69);
+    */
 }
 
 
@@ -250,6 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 .highlighted {
     color: rgb(200, 82, 204);
 }
+
 hr.solid {
     color: rgb(200, 82, 204);
     background-color: rgb(200, 82, 204);
@@ -259,4 +266,37 @@ hr.solid {
     margin-bottom: 1.5em;
     width: 83%;
 
+}
+
+.page-scroll-container {
+    margin: auto;
+    width: 1250px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    padding: 1em;
+    border-radius: 1%;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
 }
