@@ -1,23 +1,23 @@
 a:link {
-    color: white;
+    color: rgb(211, 212, 227);
     transition-duration: 325ms;
     background-color: transparent;
 
 }
 
 a:visited {
-    color: white;
+    color: rgb(211, 212, 227);
     background-color: transparent;
 }
 
 a:hover {
     background-color: transparent;
-    color: rgb(184, 99, 151);
+    color: rgb(200, 82, 204);
 
 }
 
 a:active {
-    color: white;
+    color: rgb(211, 212, 227);
     background-color: transparent;
 }
 
@@ -25,7 +25,6 @@ a:active {
 body, html {
     font-family: 'Work Sans', sans-serif;
     height: 95%;
-    color: white;
     background-color: rgb(12, 10, 47);
     overflow: hidden;
 }
@@ -38,13 +37,13 @@ body, html {
 
 /* Style the buttons that are used to open the tab content */
 .tab a {
-    color: white;
+    color: rgb(211, 212, 227);
     float: left;
     cursor: pointer;
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 5%;
-    border: 0.075em solid rgb(184, 99, 151);
+    border: 0.075em solid rgb(200, 82, 204);
     margin: 1em;
 }
 
@@ -57,32 +56,32 @@ body, html {
 /* Change background color of buttons on hover */
 .tab a:hover {
     cursor: pointer;
-    background-color: rgba(184, 99, 151, 0.1);
-    color: rgb(184, 99, 151)
+    background-color: rgba(200, 82, 204, 0.1);
+    color: rgb(200, 82, 204)
 
 }
 
 h1 {
-    color: white;
-    font-size: 90px;
+    font-size: 70px;
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
 }
 
+
 .text {
+    color: rgb(141, 150, 179);
     font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 700px;
-    height: 300px;
     text-align: center;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
     -ms-animation: fadein 3s; /* Internet Explorer */
     -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
-
+    overflow: hidden;
+    float: left;
+    width: 66%;
 }
+
 
 .list {
     text-align: left;
@@ -91,10 +90,14 @@ h1 {
 
 .icon {
     padding-top: 2vh;
+    font-size: 0.8em;
+
 }
 
 .icon a {
     text-decoration: none;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 
 }
 
@@ -152,14 +155,6 @@ body, html {
     }
 }
 
-img {
-    position: fixed;
-    left: 800px;
-    top: 200px;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-}
 
 i {
     padding-left: 1em;
@@ -180,17 +175,88 @@ i {
 }*/
 
 #typed {
-    font-size: 20px;
     margin: auto;
     width: 700px;
-    height: 100px;
-    text-align: center;
+    height: 50px;
     overflow: hidden;
     white-space: nowrap;
     animation: type 4s steps(60, end);
 }
 
+
 .resume {
     float: right !important;
     margin-right: 1em !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(220, 221, 245);
+}
+
+
+.page_no_navbar {
+    overflow: hidden;
+}
+
+
+.page-content-container {
+    margin: auto;
+    width: 1250px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    padding: 1em;
+    border-radius: 1%;
+
+}
+
+
+#photo img {
+    height: 18em;
+    border-radius: 4%;
+    margin: 2em 2em 2em 2em;
+}
+
+
+.page_content #photo {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.text b {
+    color: rgb(200, 82, 204);
+}
+
+.highlighted {
+    color: rgb(200, 82, 204);
+}
+hr.solid {
+    color: rgb(200, 82, 204);
+    background-color: rgb(200, 82, 204);
+    border-width: 0;
+    height: 2px;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    width: 83%;
+
 }
