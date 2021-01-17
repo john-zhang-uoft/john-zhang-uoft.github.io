@@ -213,18 +213,21 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
-#photo img {
-    height: 18em;
-    border-radius: 4%;
-    margin: 2em 2em 2em 2em;
-}
-
-
-.page_content #photo {
+.photo {
     float: left;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+
+.photo img {
+    height: 18em;
+    border-radius: 4%;
+    margin: 2em 2em 2em 2em;
+    box-shadow: 0 4px 8px 0 rgba(200, 82, 204, 0.3), 0 6px 20px 0 rgba(200, 82, 204, 0.3);
+    /*
+    box-shadow: 15px 15px rgb(33, 19, 69);
+    */
 }
 
 
@@ -297,4 +300,3 @@ hr.solid {
   background: #4caf50;
   width: 0%;
 }
-
