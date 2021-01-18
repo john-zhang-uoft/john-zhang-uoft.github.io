@@ -1,0 +1,238 @@
+/* body styles */
+
+body, html {
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+    background-color: rgb(12, 10, 47);
+    margin: 0;
+    padding: 0;
+}
+
+/* general link colors and hover effects */
+
+a:link {
+    color: rgb(211, 212, 227);
+    transition-duration: 325ms;
+    background-color: transparent;
+}
+
+a:visited {
+    color: rgb(211, 212, 227);
+    background-color: transparent;
+}
+
+a:hover {
+    background-color: transparent;
+    color: rgb(200, 82, 204);
+}
+
+a:active {
+    color: rgb(211, 212, 227);
+    background-color: transparent;
+}
+
+/* nav bar styles */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.tab {
+    font-size: 1em;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* navbar buttons */
+
+.tab a {
+    color: rgb(211, 212, 227);
+    float: left;
+    cursor: pointer;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5%;
+    border: 0.075em solid rgb(200, 82, 204);
+    margin: 1em;
+}
+
+.tab a:active {
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+/* Change background color of buttons and text color on hover */
+.tab a:hover {
+    cursor: pointer;
+    background-color: rgba(200, 82, 204, 0.1);
+    color: rgb(200, 82, 204)
+}
+
+/* move contact me and resume buttons to the right of the navbar */
+.tab .resume {
+    float: right;
+    margin-right: 1em;
+}
+
+/* Heading styles */
+
+h1 {
+    font-size: 70px;
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+}
+
+/* Headings are brighter */
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(220, 221, 245);
+}
+
+/* Icon and icon text settings */
+
+i {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.icon {
+    padding-top: 2vh;
+    font-size: 0.8em;
+}
+
+.icon a {
+    text-decoration: none;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.icon a:hover {
+    text-decoration: none;
+}
+
+/* Text settings */
+
+.text {
+    color: rgb(141, 150, 179);
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+/* Highlighted class to change color mid-paragraph */
+
+.text b {
+    color: rgb(200, 82, 204);
+}
+
+.highlighted {
+    color: rgb(200, 82, 204);
+}
+
+/* List styles */
+
+.list {
+    text-align: left;
+}
+
+/* General page layout styles */
+
+/* Page excluding navbar */
+.page_no_navbar {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+/* Middle section where page content is located */
+.page-content-container {
+    margin: auto;
+    width: 1250px;
+    box-sizing: border-box;
+    padding: 3em 1em 1em;
+}
+
+/* Centers anything vertically and horizontally */
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Horizontal divider styles */
+hr.solid {
+    color: rgb(200, 82, 204);
+    background-color: rgb(200, 82, 204);
+    border-width: 0;
+    height: 2px;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    width: 83%;
+}
+
+/* Fade in animations */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+}
+
