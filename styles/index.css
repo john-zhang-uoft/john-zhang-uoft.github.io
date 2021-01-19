@@ -9,6 +9,7 @@
 /* Text on index page shares width with picture */
 
 #index .text {
+    margin: auto;
     width: 66%;
 }
 
@@ -26,12 +27,23 @@
 
 }
 
-/* typed text */
-#typed {
-    margin: auto;
-    width: 700px;
-    height: 50px;
-    overflow: hidden;
+/* Typing animation */
+
+.typing-animation {
+/*    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-right: .15em solid rgb(200, 82, 204);
     white-space: nowrap;
-    animation: type 4s steps(60, end);
+    overflow: hidden;
+    width: 700px;
+    opacity: 0;
+    animation: type 5s steps(120, end), blink .5s step-end infinite alternate;
+    -webkit-animation: type 5s steps(60, end), blink .5s step-end infinite alternate;
+
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;*/
 }
