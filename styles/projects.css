@@ -1,0 +1,12 @@
+@import url("main.css");
+
+/* Projects */
+
+body #projects {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#projects .navbar {
+    background-color: rgba(3, 7, 26, 0.3);
+}
