@@ -1,0 +1,301 @@
+/* Drop animation needs to be in separate classes, cannot have a bigger "drop-animation" class as the animation would not work properly */
+
+.drop-animation-first {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 600ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 600ms;
+
+}
+
+.drop-animation-second {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 800ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 800ms;
+
+}
+
+
+.drop-animation-third {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1000ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1000ms;
+
+}
+
+
+.drop-animation-fourth {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1200ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1200ms;
+
+}
+
+
+.drop-animation-fifth {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1400ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1400ms;
+
+}
+
+
+.drop-animation-sixth {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1600ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1600ms;
+
+}
+
+
+.drop-animation-seventh {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1800ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1800ms;
+
+}
+
+
+.drop-animation-eighth {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 2000ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 2000ms;
+
+}
+
+
+.drop-animation-ninth {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 2200ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 2200ms;
+
+}
+
+
+.drop-animation-tenth {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 2400ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 2400ms;
+
+}
+
+
+.drop-animation-eleventh {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 2600ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 2600ms;
+
+}
+
+.drop-animation-twelve {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 2800ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 2800ms;
+
+}
+.drop-animation-thirteen {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 3000ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 3000ms;
+
+}.drop-animation-fourteen {
+     position: relative;
+
+     animation-name: drop-fade;
+     animation-duration: 3200ms;
+
+     -webkit-animation-name: drop-fade;
+     -webkit-animation-duration: 3200ms;
+
+ }
+.drop-animation-fifteen {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 3400ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 3400ms;
+
+}
+.drop-animation-sixteen {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 3600ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 3600ms;
+
+}
+
+
+/* Fade in animations */
+@keyframes drop-fade {
+    0% {
+        bottom: 12em;
+        opacity: 0;
+    }
+
+    50% {
+        bottom: 6em;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes drop-fade {
+    0% {
+        bottom: 12em;
+        opacity: 0;
+    }
+
+    50% {
+        bottom: 6em;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+
+/* Typing animations */
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+.rise-animation-first {
+    position: relative;
+
+    animation-name: rise-fade;
+    animation-duration: 3800ms;
+
+    -webkit-animation-name: rise-fade;
+    -webkit-animation-duration: 3800ms;
+
+}
+
+@keyframes rise-fade {
+    0% {
+        bottom: -3em;
+        opacity: 0;
+    }
+
+    50% {
+        bottom: -1em;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rise-fade {
+    0% {
+        bottom: -3em;
+        opacity: 0;
+    }
+
+    50% {
+        bottom: -1em;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
