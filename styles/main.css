@@ -140,11 +140,7 @@ i {
 
 /* Page excluding navbar */
 .page_no_navbar {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-    animation: fadein 2s;
+
 }
 
 /* Middle section where page content is located */
@@ -176,46 +172,129 @@ hr.solid {
     width: 83%;
 }
 
+.drop-animation {
+    -webkit-animation-name: drop-fade; /* Safari, Chrome and Opera > 12.1 */
+    -webkit-animation-duration: 300ms;
+
+    -moz-animation-name: drop-fade; /* Firefox < 16 */
+    -moz-animation-duration:  300ms;
+
+    -o-animation-name: drop-fade; /* Opera < 12.1 */
+    -o-animation-duration: 300ms;
+
+    animation-name: drop-fade;
+    animation-duration: 300ms;
+
+    position: relative;
+}
+
+.drop-animation #1 {
+    -webkit-animation-delay: 0ms;
+    -moz-animation-delay: 0ms;
+    -o-animation-delay: 0ms;
+    animation-delay: 0ms;
+
+}
+
+.drop-animation #2 {
+    -webkit-animation-delay: 200ms;
+    -moz-animation-delay: 200ms;
+    -o-animation-delay: 200ms;
+    animation-delay: 200ms;}
+
+
+.drop-animation #3 {
+    -webkit-animation-delay: 400ms;
+    -moz-animation-delay: 400ms;
+    -o-animation-delay: 400ms;
+    animation-delay: 400ms;}
+
+
+.drop-animation #4 {
+    -webkit-animation-delay: 600ms;
+    -moz-animation-delay: 600ms;
+    -o-animation-delay: 600ms;
+    animation-delay: 600ms;}
+
+
+.drop-animation #5 {
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;}
+
+
+.drop-animation #6 {
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;}
+
+
+.drop-animation #7 {
+    -webkit-animation-delay: 1200ms;
+    -moz-animation-delay: 1200ms;
+    -o-animation-delay: 1200ms;
+    animation-delay: 1200ms;}
+
+
+.drop-animation #8 {
+    -webkit-animation-delay: 1400ms;
+    -moz-animation-delay: 1400ms;
+    -o-animation-delay: 1400ms;
+    animation-delay: 1400ms;}
+
+
 /* Fade in animations */
-@keyframes fadein {
-    from {
-        opacity: 0;
+@keyframes drop-fade {
+    0% {
+        bottom: 12em;
     }
-    to {
-        opacity: 1;
+    100% {
+        bottom: 0;
     }
 }
 
 /* Firefox */
-@-moz-keyframes fadein {
-    from {
-        opacity: 0;
+@-moz-keyframes drop-fade {
+    0% {
+        bottom: 12em;
     }
-    to {
-        opacity: 1;
+    100% {
+        bottom: 0;
     }
 }
 
 /* Safari, Chrome and Opera */
-@-webkit-keyframes fadein {
-    from {
-        opacity: 0;
+@-webkit-keyframes drop-fade {
+    0% {
+        bottom: 12em;
     }
-    to {
-        opacity: 1;
+    100% {
+        bottom: 0;
     }
 }
 
 /* Internet Explorer */
-@-ms-keyframes fadein {
-    from {
-        opacity: 0;
+@-ms-keyframes drop-fade {
+    0% {
+        bottom: 12em;
     }
-    to {
-        opacity: 1;
+    100% {
+        bottom: 0;
     }
 }
 
+@-o-keyframes drop-fade {
+    0% {
+        bottom: 12em;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+/* Typing animation */
 @keyframes type {
     from {
         width: 0;
