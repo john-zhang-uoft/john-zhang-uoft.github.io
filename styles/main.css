@@ -137,6 +137,7 @@ i {
 
 .list {
     text-align: left;
+    list-style: none;
 }
 
 /* General page layout styles */
