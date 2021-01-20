@@ -15,6 +15,18 @@
     position: relative;
 
     animation-name: drop-fade;
+    animation-duration: 700ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 700ms;
+
+}
+
+
+.drop-animation-3 {
+    position: relative;
+
+    animation-name: drop-fade;
     animation-duration: 800ms;
 
     -webkit-animation-name: drop-fade;
@@ -23,7 +35,19 @@
 }
 
 
-.drop-animation-3 {
+.drop-animation-4 {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 900ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 900ms;
+
+}
+
+
+.drop-animation-5 {
     position: relative;
 
     animation-name: drop-fade;
@@ -35,7 +59,19 @@
 }
 
 
-.drop-animation-4 {
+.drop-animation-6 {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1100ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1100ms;
+
+}
+
+
+.drop-animation-7 {
     position: relative;
 
     animation-name: drop-fade;
@@ -47,7 +83,19 @@
 }
 
 
-.drop-animation-5 {
+.drop-animation-8 {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1300ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1300ms;
+
+}
+
+
+.drop-animation-9 {
     position: relative;
 
     animation-name: drop-fade;
@@ -59,7 +107,19 @@
 }
 
 
-.drop-animation-6 {
+.drop-animation-10 {
+    position: relative;
+
+    animation-name: drop-fade;
+    animation-duration: 1500ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1500ms;
+
+}
+
+
+.drop-animation-11 {
     position: relative;
 
     animation-name: drop-fade;
@@ -70,8 +130,17 @@
 
 }
 
+.drop-animation-12 {
+    position: relative;
 
-.drop-animation-7 {
+    animation-name: drop-fade;
+    animation-duration: 1700ms;
+
+    -webkit-animation-name: drop-fade;
+    -webkit-animation-duration: 1700ms;
+
+}
+.drop-animation-13 {
     position: relative;
 
     animation-name: drop-fade;
@@ -80,10 +149,17 @@
     -webkit-animation-name: drop-fade;
     -webkit-animation-duration: 1800ms;
 
-}
+}.drop-animation-14 {
+     position: relative;
 
+     animation-name: drop-fade;
+     animation-duration: 1900ms;
 
-.drop-animation-8 {
+     -webkit-animation-name: drop-fade;
+     -webkit-animation-duration: 1900ms;
+
+ }
+.drop-animation-15 {
     position: relative;
 
     animation-name: drop-fade;
@@ -93,90 +169,14 @@
     -webkit-animation-duration: 2000ms;
 
 }
-
-
-.drop-animation-9 {
-    position: relative;
-
-    animation-name: drop-fade;
-    animation-duration: 2200ms;
-
-    -webkit-animation-name: drop-fade;
-    -webkit-animation-duration: 2200ms;
-
-}
-
-
-.drop-animation-10 {
-    position: relative;
-
-    animation-name: drop-fade;
-    animation-duration: 2400ms;
-
-    -webkit-animation-name: drop-fade;
-    -webkit-animation-duration: 2400ms;
-
-}
-
-
-.drop-animation-11 {
-    position: relative;
-
-    animation-name: drop-fade;
-    animation-duration: 2600ms;
-
-    -webkit-animation-name: drop-fade;
-    -webkit-animation-duration: 2600ms;
-
-}
-
-.drop-animation-12 {
-    position: relative;
-
-    animation-name: drop-fade;
-    animation-duration: 2800ms;
-
-    -webkit-animation-name: drop-fade;
-    -webkit-animation-duration: 2800ms;
-
-}
-.drop-animation-13 {
-    position: relative;
-
-    animation-name: drop-fade;
-    animation-duration: 3000ms;
-
-    -webkit-animation-name: drop-fade;
-    -webkit-animation-duration: 3000ms;
-
-}.drop-animation-14 {
-     position: relative;
-
-     animation-name: drop-fade;
-     animation-duration: 3200ms;
-
-     -webkit-animation-name: drop-fade;
-     -webkit-animation-duration: 3200ms;
-
- }
-.drop-animation-15 {
-    position: relative;
-
-    animation-name: drop-fade;
-    animation-duration: 3400ms;
-
-    -webkit-animation-name: drop-fade;
-    -webkit-animation-duration: 3400ms;
-
-}
 .drop-animation-16 {
     position: relative;
 
     animation-name: drop-fade;
-    animation-duration: 3600ms;
+    animation-duration: 2100ms;
 
     -webkit-animation-name: drop-fade;
-    -webkit-animation-duration: 3600ms;
+    -webkit-animation-duration: 2100ms;
 
 }
 
@@ -259,10 +259,10 @@
     position: relative;
 
     animation-name: rise-fade;
-    animation-duration: 3800ms;
+    animation-duration: 2600ms;
 
     -webkit-animation-name: rise-fade;
-    -webkit-animation-duration: 3800ms;
+    -webkit-animation-duration: 2600ms;
 
 }
 
@@ -320,11 +320,11 @@
 
 .draw-line-animation {
     animation-name: draw-line;
-    animation-duration: 4400ms;
+    animation-duration: 3000ms;
     animation-fill-mode: forwards;
 
     -webkit-animation-name: draw-line;
-    -webkit-animation-duration: 4400ms;
+    -webkit-animation-duration: 3000ms;
     -webkit-animation-fill-mode: forwards;
 }
 
@@ -361,11 +361,11 @@
 
 .picture-animation {
     animation-name: picture-appear;
-    animation-duration: 4400ms;
+    animation-duration: 3000ms;
     animation-fill-mode: forwards;
 
     -webkit-animation-name: picture-appear;
-    -webkit-animation-duration: 4400ms;
+    -webkit-animation-duration: 3000ms;
     -webkit-animation-fill-mode: forwards;
 }
 
