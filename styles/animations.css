@@ -1,6 +1,6 @@
 /* Drop animation needs to be in separate classes, cannot have a bigger "drop-animation" class as the animation would not work properly */
 
-.drop-animation-first {
+.drop-animation-1 {
     position: relative;
 
     animation-name: drop-fade;
@@ -11,7 +11,7 @@
 
 }
 
-.drop-animation-second {
+.drop-animation-2 {
     position: relative;
 
     animation-name: drop-fade;
@@ -23,7 +23,7 @@
 }
 
 
-.drop-animation-third {
+.drop-animation-3 {
     position: relative;
 
     animation-name: drop-fade;
@@ -35,7 +35,7 @@
 }
 
 
-.drop-animation-fourth {
+.drop-animation-4 {
     position: relative;
 
     animation-name: drop-fade;
@@ -47,7 +47,7 @@
 }
 
 
-.drop-animation-fifth {
+.drop-animation-5 {
     position: relative;
 
     animation-name: drop-fade;
@@ -59,7 +59,7 @@
 }
 
 
-.drop-animation-sixth {
+.drop-animation-6 {
     position: relative;
 
     animation-name: drop-fade;
@@ -71,7 +71,7 @@
 }
 
 
-.drop-animation-seventh {
+.drop-animation-7 {
     position: relative;
 
     animation-name: drop-fade;
@@ -83,7 +83,7 @@
 }
 
 
-.drop-animation-eighth {
+.drop-animation-8 {
     position: relative;
 
     animation-name: drop-fade;
@@ -95,7 +95,7 @@
 }
 
 
-.drop-animation-ninth {
+.drop-animation-9 {
     position: relative;
 
     animation-name: drop-fade;
@@ -107,7 +107,7 @@
 }
 
 
-.drop-animation-tenth {
+.drop-animation-10 {
     position: relative;
 
     animation-name: drop-fade;
@@ -119,7 +119,7 @@
 }
 
 
-.drop-animation-eleventh {
+.drop-animation-11 {
     position: relative;
 
     animation-name: drop-fade;
@@ -130,7 +130,7 @@
 
 }
 
-.drop-animation-twelve {
+.drop-animation-12 {
     position: relative;
 
     animation-name: drop-fade;
@@ -140,7 +140,7 @@
     -webkit-animation-duration: 2800ms;
 
 }
-.drop-animation-thirteen {
+.drop-animation-13 {
     position: relative;
 
     animation-name: drop-fade;
@@ -149,7 +149,7 @@
     -webkit-animation-name: drop-fade;
     -webkit-animation-duration: 3000ms;
 
-}.drop-animation-fourteen {
+}.drop-animation-14 {
      position: relative;
 
      animation-name: drop-fade;
@@ -159,7 +159,7 @@
      -webkit-animation-duration: 3200ms;
 
  }
-.drop-animation-fifteen {
+.drop-animation-15 {
     position: relative;
 
     animation-name: drop-fade;
@@ -169,7 +169,7 @@
     -webkit-animation-duration: 3400ms;
 
 }
-.drop-animation-sixteen {
+.drop-animation-16 {
     position: relative;
 
     animation-name: drop-fade;
