@@ -2,11 +2,33 @@
 
 /* Projects */
 
+/* Scrolling down*/
 body #projects {
     overflow: scroll;
     overflow-x: hidden;
 }
 
-#projects .navbar {
-    background-color: rgba(3, 7, 26, 0.3);
+/* Make navbar translucent */
+#about .navbar {
+    background-image: linear-gradient(to bottom, rgba(12, 10, 47, 1), rgba(12, 10, 47, 0));
+}
+
+#projects .page-content-container {
+    padding-top: 4em;
+}
+
+.text-box {
+    width: 30%;
+    background-color: rgba(200, 82, 204, 0.2);
+    float: left;
+    border-color: rgb(200, 82, 204);
+    border-style: solid;
+    border-width: 0.05em;
+    border-radius: 2%;
+
+    box-sizing: border-box;
+}
+
+#projects h3 {
+    text-align: center;
 }
