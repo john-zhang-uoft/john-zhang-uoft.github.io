@@ -2,7 +2,8 @@
 
 /* body styles */
 
-body, html {
+
+html, body {
     font-family: 'Work Sans', sans-serif;
     height: 100%;
     background-color: rgb(12, 10, 47);
@@ -150,7 +151,6 @@ i {
     margin: auto;
     width: 1250px;
     box-sizing: border-box;
-    padding: 3em 1em 1em;
 }
 
 /* Centers anything vertically and horizontally */
@@ -171,7 +171,6 @@ hr.solid {
     height: 2px;
     margin-top: 2em;
     margin-bottom: 1.5em;
-    width: 83%;
 }
 
 
