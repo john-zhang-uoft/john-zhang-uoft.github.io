@@ -150,7 +150,7 @@ i {
 /* Middle section where page content is located */
 .page-content-container {
     margin: auto;
-    width: 80%;
+    width: 1250px;
     box-sizing: border-box;
 }
 
