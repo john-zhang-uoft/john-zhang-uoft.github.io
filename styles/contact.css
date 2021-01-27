@@ -5,3 +5,12 @@
 body #contact {
     overflow: hidden;
 }
+
+/* Make navbar translucent */
+#contact .navbar {
+    background-image: linear-gradient(to bottom, rgba(12, 10, 47, 1), rgba(12, 10, 47, 0));
+}
+
+#contact .page-content-container {
+    padding-top: 4em;
+}

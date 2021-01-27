@@ -87,6 +87,19 @@ h1 {
     margin-bottom: 0.2em;
 }
 
+h2 {
+    font-size: 30px;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
 /* Headings are brighter */
 h1, h2, h3, h4, h5, h6 {
     color: rgb(220, 221, 245);
@@ -121,6 +134,7 @@ i {
     font-size: 20px;
     text-align: center;
     float: left;
+    width: 100%;
 }
 
 /* Highlighted class to change color mid-paragraph */
@@ -150,7 +164,7 @@ i {
 /* Middle section where page content is located */
 .page-content-container {
     margin: auto;
-    width: 80%;
+    width: 98%;
     box-sizing: border-box;
 }
 
