@@ -31,23 +31,7 @@
 
 }
 
-/* Typing animation */
-
-.typing-animation {
-/*    display: inline-block;
-    margin: 0;
-    padding: 0;
-    border-right: .15em solid rgb(200, 82, 204);
-    white-space: nowrap;
-    overflow: hidden;
-    width: 700px;
-    opacity: 0;
-    animation: type 5s steps(120, end), blink .5s step-end infinite alternate;
-    -webkit-animation: type 5s steps(60, end), blink .5s step-end infinite alternate;
-
-    animation-delay: 3s;
-    -webkit-animation-delay: 3s;
-
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;*/
+/* Middle section where page content is located */
+#index .page-content-container {
+    width: 1250px;
 }
