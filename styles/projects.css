@@ -18,7 +18,8 @@ body #projects {
 }
 
 .project {
-    margin-top: 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: inline-block;
 
 }
