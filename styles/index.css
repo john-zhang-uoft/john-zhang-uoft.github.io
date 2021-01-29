@@ -9,7 +9,7 @@
 /* Text on index page shares width with picture */
 
 #index .text {
-    margin: auto;
+    margin: 0 auto;
     width: 66%;
 }
 
@@ -32,7 +32,70 @@
 }
 
 /* Middle section where page content is located */
+
+
+
+
 #index .page-content-container {
-    width: 1250px;
+    width: 80%;
 }
-<!---->
+
+@media only screen and (max-width: 1301px) {
+    .photo { float: none; }
+    .page-content-container { text-align: center;}
+    .text {float: none;}
+
+}
+
+@media only screen and (max-height: 378px) {
+    #index {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .page-content-container {
+        position: relative;
+        transform: none;
+        left: 0;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1301px) and (max-height: 706px) {
+    #index {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .page-content-container {
+        position: relative;
+        transform: none;
+        left: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 764px) and (max-height: 750px) {
+    .page-content-container {
+        position: relative;
+        transform: none;
+        left: 0;
+        margin: auto;
+    }
+    #index {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+}
+
+/*@media only screen and (max-width: 700px) {
+    #index .page-content-container {
+    }
+}*/
+
+@media only screen and (min-width: 1600px) {
+    .page-content-container {
+        width: 1260px !important;
+    }
+}

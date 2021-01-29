@@ -35,7 +35,7 @@ body #projects {
     border-width: 0.05em;
     border-radius: 2%;
     box-sizing: border-box;
-    padding: 2em;
+    padding: 2vw;
     text-align: left;
 
 }
@@ -91,4 +91,3 @@ i {
     height: 40vw;
     width: auto;
 }
-<!---->
