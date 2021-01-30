@@ -17,4 +17,7 @@ body #about {
     padding-top: 4em;
     margin: auto;
 }
-<!---->
+
+@media only screen and (max-width: 1000px) {
+    .text {font-size: 1em;}
+}
