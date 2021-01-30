@@ -43,12 +43,14 @@ a:active {
     width: 100%;
     z-index: 1;
     top: 0;
+    transform:rotate(0); /*Force GPU acceleration on chrome to fix bugged rendering when resizing*/
 }
 
 .tab {
     font-size: 1em;
     overflow: hidden;
     background-color: transparent;
+    transform:rotate(0); /*Force GPU acceleration on chrome to fix bugged rendering when resizing*/
 }
 
 /* navbar buttons */
@@ -62,6 +64,8 @@ a:active {
     border-radius: 5%;
     border: 0.075em solid rgb(200, 82, 204);
     margin: 1em;
+    transform:rotate(0); /*Force GPU acceleration on chrome to fix bugged rendering when resizing*/
+
 }
 
 @media only screen and (max-width: 702px) {
@@ -77,6 +81,22 @@ a:active {
     .tab .resume {
         float: left !important;
         margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 491px) {
+    .tab {
+        font-size: 0.8em;
+    }
+}
+
+
+@media only screen and (max-width: 419px) {
+    .tab {
+        font-size: 0.8em;
+    }
+    .tab a {
+        padding: 6px 10px;
     }
 }
 
@@ -161,13 +181,6 @@ i {
     color: rgb(200, 82, 204);
 }
 
-/* List styles */
-
-.list {
-    text-align: left;
-    list-style: none;
-}
-
 /* General page layout styles */
 
 /* Page excluding navbar */
@@ -178,7 +191,6 @@ i {
 /* Middle section where page content is located */
 .page-content-container {
     margin: auto;
-    padding-top: 24px;
     width: 98%;
     box-sizing: border-box;
 }
