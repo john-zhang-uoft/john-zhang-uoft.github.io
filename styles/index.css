@@ -33,11 +33,18 @@
 
 /* Middle section where page content is located */
 
-
-
-
 #index .page-content-container {
     width: 80%;
+}
+
+/* Horizontal divider styles */
+hr.solid {
+    color: rgb(200, 82, 204);
+    background-color: rgb(200, 82, 204);
+    border-width: 0;
+    height: 2px;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
 }
 
 @media only screen and (max-width: 1301px) {
