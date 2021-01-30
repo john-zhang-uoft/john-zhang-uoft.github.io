@@ -14,3 +14,49 @@ body #contact {
 #contact .page-content-container {
     padding-top: 4em;
 }
+
+.icon {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+
+.photo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.photo img {
+    height: 32em;
+    border-radius: 4%;
+    margin: 2em auto;
+    border-style: solid;
+    border-width: 0.08em;
+
+    box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .text {font-size: 0.8em;}
+}
+
+@media only screen and (max-width: 702px) {
+    i {
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+    .photo img {
+        width: 88%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .icon {
+        font-size: 0.9em !important;
+    }
+}

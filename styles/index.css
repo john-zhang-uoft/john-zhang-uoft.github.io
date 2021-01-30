@@ -35,6 +35,7 @@
 
 #index .page-content-container {
     width: 80%;
+    padding-top: 4em;
 }
 
 /* Horizontal divider styles */
@@ -46,6 +47,12 @@ hr.solid {
     margin-top: 2em;
     margin-bottom: 1.5em;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .text {font-size: 0.8em;}
+}
+
 
 @media only screen and (max-width: 1301px) {
     .photo { float: none; }
@@ -88,6 +95,7 @@ hr.solid {
         position: relative;
         transform: none;
         left: 0;
+        top: 0;
         margin: auto;
     }
     #index {
@@ -96,10 +104,16 @@ hr.solid {
     }
 }
 
-/*@media only screen and (max-width: 700px) {
-    #index .page-content-container {
+@media only screen and (max-width: 455px) {
+    #index .text {
+        width: 100%
     }
-}*/
+    .photo img {
+        width: 100%;
+        height: auto;
+        margin: 2em 0 0;
+    }
+}
 
 @media only screen and (min-width: 1600px) {
     .page-content-container {

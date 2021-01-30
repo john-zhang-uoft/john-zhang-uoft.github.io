@@ -19,5 +19,14 @@ body #about {
 }
 
 @media only screen and (max-width: 1000px) {
-    .text {font-size: 1em;}
+    .text {font-size: 0.8em;}
+}
+
+.list {
+    text-align: left;
+    list-style: none;
+}
+
+ul {
+    padding-inline-start: 1.25em;
 }

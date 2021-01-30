@@ -110,3 +110,7 @@ i {
     h3 {margin-bottom: 0.2em}
 
 }
+
+ul {
+    padding-inline-start: 1.25em;
+}
