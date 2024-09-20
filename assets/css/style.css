@@ -512,17 +512,17 @@ a.hoverline:hover {
   padding-bottom: 10px;
 }
 
-.card.large .card-image {
+/* .card.large .card-image {
   height: 230px;
-}
+} */
 
 .card.large .card-content {
   height: auto;
 }
 
-.card.medium .card-image {
+/* .card.medium .card-image {
   height: 240px;
-}
+} */
 
 .card-action a.btn-floating {
   margin-bottom: 0;
