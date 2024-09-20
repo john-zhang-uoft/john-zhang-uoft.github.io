@@ -4,7 +4,7 @@ https://github.com/varadbhogayata/varadbhogayata.github.io
 in progress for an ECE444 assignment.
 
 Activity 1
-![Readme]("https://github.com/john-zhang-uoft/john-zhang-uoft.github.io/tree/main/assets/img/Added_README.png")
+![Readme](https://github.com/john-zhang-uoft/john-zhang-uoft.github.io/blob/main/assets/img/Added_Info.png)
 
 Activity 2
 ![Info github]("https://github.com/john-zhang-uoft/john-zhang-uoft.github.io/tree/main/assets/img/Added_Info_Github.png")
