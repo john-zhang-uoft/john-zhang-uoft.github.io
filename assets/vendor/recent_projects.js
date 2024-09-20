@@ -1,9 +1,30 @@
 document.addEventListener("DOMContentLoaded", function () {
     const projects = [
         {
-            title: "Big Data Challenge",
-            description: "Winner of National Undergraduate Big Data Challenge",
-            imageUrl: "/assets/img/project-quizup-logo-1.png",
+            title: "NeuralSharp",
+            description: "C# Deep Learning Library From Scratch",
+            imageUrl: "assets/img/Mnist.png",
+            accomplishments: [
+                "Created a C# neural network library from scratch with optimizers, SGD, backpropagation and data encoding.",
+                "Implemented feedforward and Generative - Adversarial Networks for handwritten digits."
+            ],
+            tools: "C#",
+        },
+        {
+            title: "Studdy Buddy",
+            description: "Hack the North Finalist 2021",
+            imageUrl: "/assets/img/Studdy Buddy.png",
+            accomplishments: [
+                "Created a Chrome extension that automatically takes lecture notes and allows users to select and copy text seen in videos.",
+                "selected as a finalist in a hackathon of over 400 teams."
+            ],
+            tools: "Node.js, React, Flask, HTML, CSS",
+            link: "https://devpost.com/software/studdybuddy-wvsny2"
+        },
+        {
+            title: "Covid-19 Misinformation on Twitter",
+            description: "National Undergraduate Big Data Challenge Winner",
+            imageUrl: "/assets/img/Big Data 2021.png",
             accomplishments: [
                 "Co-wrote scientific research paper analyzing communities and the spread of COVID-19 misinformation on Twitter.",
                 "Processed and analyzed 300,000 Tweets using Python data pipeline and won the Outstanding Science Communication Award."
@@ -11,23 +32,24 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: "Python, Scikit-learn, XGBoost",
             link: "https://drive.google.com/file/d/1Gcn6M--Tuux-_HxfGHaQ62rcw4GyrT68/view"
         },
-        // Add more projects here
         {
-            title: "AI Development Platform",
-            description: "Developed an AI-powered platform for automating software development.",
-            imageUrl: "/assets/img/ai-platform.png",
+            title: "Hurricanes and Ocean Temperatures",
+            description: "National High School Big Data Challenge Finalist",
+            imageUrl: "/assets/img/Big Data News.png",
             accomplishments: [
-                "Automated test writing and PR creation.",
-                "Used machine learning models to streamline code reviews."
+                "Performed data analysis on sea temperature and hurricane statistics dataset and co-wrote a paper detailing results.",
+                "Selected as a finalist and invited to present to panel in a competition of hundreds of teams."
             ],
-            tools: "JavaScript, Python, GPT-4 API",
-            link: "#"
+            tools: "Node.js, React, Flask, HTML, CSS",
+            link: "https://live.stemfellowship.org/portfolio-items/high-school-big-data-challenge-2019-2020/"
         },
+
+
         // ... more projects
     ];
 
     let currentIndex = 0;
-    const projectsPerPage = 1; // Display one project at a time
+    const projectsPerPage = 3; // Display one project at a time
 
     // Function to create a project card HTML structure
     function createProjectCard(project) {

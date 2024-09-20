@@ -15,6 +15,12 @@
   border-radius: 50% !important;
 }
 
+.card-image img {
+  width: 100%; /* Ensures the image takes up the full width of its container */
+  height: 200px; /* Set a fixed height (or adjust as needed) */
+  object-fit: cover; /* This will crop the image while maintaining aspect ratio */
+}
+
 .profile-pic img {
   width: 100%;
   height: auto;
