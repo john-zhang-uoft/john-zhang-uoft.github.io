@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Implemented feedforward and Generative - Adversarial Networks for handwritten digits."
             ],
             tools: "C#",
+            date: "2021-08-05"
         },
         {
             title: "Studdy Buddy",
@@ -19,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "selected as a finalist in a hackathon of over 400 teams."
             ],
             tools: "Node.js, React, Flask, HTML, CSS",
-            link: "https://devpost.com/software/studdybuddy-wvsny2"
+            link: "https://devpost.com/software/studdybuddy-wvsny2",
+            date: "2021-09-15"
         },
         {
             title: "Covid-19 Misinformation on Twitter",
@@ -30,7 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Processed and analyzed 300,000 Tweets using Python data pipeline and won the Outstanding Science Communication Award."
             ],
             tools: "Python, Scikit-learn, XGBoost",
-            link: "https://drive.google.com/file/d/1Gcn6M--Tuux-_HxfGHaQ62rcw4GyrT68/view"
+            link: "https://drive.google.com/file/d/1Gcn6M--Tuux-_HxfGHaQ62rcw4GyrT68/view",
+            date: "2021-03-10"
         },
         {
             title: "Hurricanes and Ocean Temperatures",
@@ -41,12 +44,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Selected as a finalist and invited to present to panel in a competition of hundreds of teams."
             ],
             tools: "Node.js, React, Flask, HTML, CSS",
-            link: "https://live.stemfellowship.org/portfolio-items/high-school-big-data-challenge-2019-2020/"
+            link: "https://live.stemfellowship.org/portfolio-items/high-school-big-data-challenge-2019-2020/",
+            date: "2020-02-08"
         },
 
 
         // ... more projects
     ];
+    projects.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     let currentIndex = 0;
     const projectsPerPage = 3; // Display one project at a time
